@@ -4,7 +4,7 @@
   <arg name="tls"                       default="false" />
   <arg name="certfile"                  default="" />
   <arg name="keyfile"                   default="" />
-  <arg name="topic_whitelist"           default="[/fmu/out/sensor_combined,/fmu/out/vehicle_attitude,/camera/imu,/visual_slam/tracking/odometry,/fmu/out/vehicle_odometry, /jake/imu]" />
+  <arg name="topic_whitelist"           default="[/fmu/out/sensor_combined,/fmu/out/vehicle_attitude,/camera/imu,/visual_slam/tracking/odometry,/fmu/out/vehicle_odometry, /imu_transform/imu]" />
   <arg name="param_whitelist"           default="['.*']" />
   <arg name="service_whitelist"         default="['.*']" />
   <arg name="client_topic_whitelist"    default="['.*']" />
